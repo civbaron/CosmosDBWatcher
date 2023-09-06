@@ -1,4 +1,4 @@
-﻿namespace CDS.CloudOps.CosmosDBWatcher.Models
+﻿namespace CosmosDBWatcher.Models
 {
     public class CosmosDBWatcherQueueItem
     {

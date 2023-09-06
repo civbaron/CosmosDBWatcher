@@ -1,9 +1,9 @@
-using CDS.CloudOps.CosmosDBWatcher.Models;
+using CosmosDBWatcher.Models;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace CDS.CloudOps.CosmosDBWatcher.Functions
+namespace CosmosDBWatcher.Functions
 {
     public class CosmosDatabaseData
     {

@@ -1,6 +1,6 @@
 ﻿using CsvHelper.Configuration.Attributes;
 
-namespace CDS.CloudOps.CosmosDBWatcher.Models
+namespace CosmosDBWatcher.Models
 {
     internal class CostData
     {

@@ -2,7 +2,7 @@
 using Azure.ResourceManager.CosmosDB;
 using System.Text.Json.Serialization;
 
-namespace CDS.CloudOps.CosmosDBWatcher.Models
+namespace CosmosDBWatcher.Models
 {
     public class DatabaseAccountValue
     {

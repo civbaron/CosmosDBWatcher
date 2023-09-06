@@ -2,8 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
-    <RootNamespace>CDS.CloudOps.CosmosDBWatcher</RootNamespace>
-    <AssemblyName>CDS.CloudOps.CosmosDBWatcher</AssemblyName>
+    <RootNamespace>CosmosDBWatcher</RootNamespace>
+    <AssemblyName>CosmosDBWatcher</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Azure.Identity" Version="1.10.0" />

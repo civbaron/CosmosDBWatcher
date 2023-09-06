@@ -1,6 +1,6 @@
 using Azure.Core;
 using Azure.Monitor.Ingestion;
-using CDS.CloudOps.CosmosDBWatcher.Models;
+using CosmosDBWatcher.Models;
 using CsvHelper;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 
-namespace CDS.CloudOps.CosmosDBWatcher.Functions
+namespace CosmosDBWatcher.Functions
 {
     public class CostReportProcessor
     {

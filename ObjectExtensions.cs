@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace CDS.CloudOps.CosmosDBWatcher
+namespace CosmosDBWatcher
 {
     public static class ObjectExtensions
     {

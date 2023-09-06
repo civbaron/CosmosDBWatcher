@@ -4,7 +4,7 @@ using Azure.Monitor.Query;
 using Azure.ResourceManager;
 using Azure.ResourceManager.CosmosDB;
 using Azure.ResourceManager.CosmosDB.Models;
-using CDS.CloudOps.CosmosDBWatcher.Models;
+using CosmosDBWatcher.Models;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 
-namespace CDS.CloudOps.CosmosDBWatcher.Functions
+namespace CosmosDBWatcher.Functions
 {
     public class CosmosDBWatcherQueue
     {

@@ -5,8 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-[assembly: FunctionsStartup(typeof(CDS.CloudOps.CosmosDBWatcher.StartUp))]
-namespace CDS.CloudOps.CosmosDBWatcher
+[assembly: FunctionsStartup(typeof(CosmosDBWatcher.StartUp))]
+namespace CosmosDBWatcher
 {
     public class StartUp : FunctionsStartup
     {
